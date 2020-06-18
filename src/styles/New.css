@@ -1,0 +1,57 @@
+  .whole-pad {
+      padding: 0 10%;
+    }
+  .title_register {
+    width: 100%;
+  }
+  .divider__Style {
+    border-top: solid 2px #293234;
+    width: 100%;
+    margin: 0;
+  }
+  
+  form {
+    width: 100%;
+    margin: 2% 0;
+  }
+  
+  .ownerData__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  
+  .ownerData-input {
+    margin: 2% 0;
+    border-radius: 0.8rem !important;
+    height: calc(1.5em + 1rem + 16px) !important;
+  }
+  
+  .ownerData-input__large {
+    margin: 1% 0;
+    border-radius: 0.8rem !important;
+    height: calc(1.5em + 1rem + 16px) !important;
+  }
+
+  .table_reg {
+    display: flex;
+    justify-content: space-between;
+    height: 0px;
+  }
+  .table td {
+    border-left: none;
+    border-right: none;
+    padding: 1rem;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .table th {
+    border-left: none;
+    border-right: none;
+    padding: 1.5rem;
+  }
+  .table thead th {
+    vertical-align: middle;
+    width: 50px !important;
+  }

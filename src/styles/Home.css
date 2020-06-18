@@ -1,0 +1,61 @@
+.hero{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow_back{
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.shadow_back h1{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.description_app{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.description_app img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.description_app_t{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description_app_t p{
+    width: 60%;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

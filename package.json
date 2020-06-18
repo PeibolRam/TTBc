@@ -1,0 +1,62 @@
+{
+  "name": "tt20007",
+  "version": "0.1.5",
+  "description": "TT 20-007",
+  "author": "TT 20-007",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "@types/googlemaps": "^3.0.0",
+    "@types/markerclustererplus": "^2.1.29",
+    "@types/react": "^15.0.0 || ^16.0.0",
+    "axios": "^0.19.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "4.3.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "identicon.js": "^2.3.3",
+    "react": "^16.13.1",
+    "react-bootstrap": "1.0.0-beta.5",
+    "react-dom": "^16.13.1",
+    "react-geocode": "^0.2.1",
+    "react-google-maps": "*",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
+    "sweetalert": "^2.1.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "1.0.0-beta.55",
+    "qrcode.react": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
