@@ -229,6 +229,8 @@ export default function NewProperty(props) {
 
     return (
         <div className="container">
+            {console.log(ethBalance)}
+            {console.log(statehash)}
           <div className="row title_register">
             <h3>Registro de Nuevo Inmueble</h3>
             <hr className="divider__Style"/>

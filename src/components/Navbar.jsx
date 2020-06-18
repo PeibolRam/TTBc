@@ -9,7 +9,7 @@ import '../styles/Navbar.css'
 export default function Navbar() {
     const isAuthenticated = localStorage.getItem("TT_TOKEN") !== null;
     const [account, setAccount] = useState('')
-    const [ethBalance, setEthBalance] = useState('')
+    // const [ethBalance, setEthBalance] = useState('')
     useEffect(() => {
         const loadWeb3 = async() => {
             if (window.ethereum) {

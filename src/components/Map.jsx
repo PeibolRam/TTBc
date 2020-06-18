@@ -60,6 +60,8 @@ const Map = (props) => {
       <Marker position={ position } ref={(mark) =>  {
         setMark(mark)
       }} draggable={true} onDragEnd={onPositionChanged} />
+      {console.log(mop)}
+      {console.log(mark)}
     </GoogleMap>
   );
 }
