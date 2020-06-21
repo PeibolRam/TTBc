@@ -17,14 +17,13 @@ export default function Home() {
             <section className="description_app">
                 <img src={Obj} alt=""/>
                 <div className="description_app_t">
-                    <h2>Objetivo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, facere. Alias, assumenda odit quia quae id vero? Quisquam totam numquam recusandae eaque sed excepturi ab, at facere minima, quam iure.</p>
+                    <h2>Propuesta</h2>
+                    <p>Desarrollo de un sistema descentralizado que sirva como herramienta adicional al registro público de la propiedad.</p>
                 </div>
             </section>
             <section className="description_app">
                 <div className="description_app_t">
-                    <h2>Justificación</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, facere. Alias, assumenda odit quia quae id vero? Quisquam totam numquam recusandae eaque sed excepturi ab, at facere minima, quam iure.</p>
+                    <p>Se pretende disminuir el número de fraudes de compra/venta de inmuebles, así como una forma de registro de propiedad más segura, transparente y confiable.</p>
                 </div>
                 <img src={Desc} alt=""/>
             </section>
