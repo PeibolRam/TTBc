@@ -1,5 +1,4 @@
 import React from 'react'
-
 import HeroImg from '../images/hero.png'
 import Desc from '../images/desc.png'
 import Obj from '../images/obj.png'
