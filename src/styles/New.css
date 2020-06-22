@@ -38,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     margin: 2em 0;
+    height: 60px;
   }
   .table td {
     border-left: none;
